@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/samuelklein/node-sequelize-example/issues"
   },
-  "homepage": "https://github.com/samuelklein/node-sequelize-example#readme"
+  "homepage": "https://github.com/samuelklein/node-sequelize-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.14.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
 }
