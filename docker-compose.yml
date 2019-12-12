@@ -3,7 +3,7 @@ version: "3.3"
 services:
   be: 
     build: .
-    command: bash -c "cd src && ./../node_modules/.bin/sequelize db:migrate"
+    command: bash -c "cd src && ./../node_modules/.bin/sequelize db:migrate && cd .. && node src/app.js"
     depends_on:
       - db
     links: 
